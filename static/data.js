@@ -1,4 +1,11 @@
 var jsonArray = {
+    "company": {
+        "name": "Lunar Miner Ltd",
+        "leader": "Neil Armstrong",
+        "days": 0,
+        "perk": "Lunarite production increased by 10%",
+        "div": "companyDiv",
+    },
     "flags": {
         "showMetalDiv": true,
         "showWoodDiv": true,

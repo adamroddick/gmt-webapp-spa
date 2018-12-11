@@ -12,6 +12,12 @@ function renderResources() {
         }
 
     }, 1000);
+
+    renderCompanyCard(jsonArray.company);
+}
+
+function renderCompanyCard(company) {
+    render(companyCardTemplate(company),'div#' + company.div)
 }
 
 renderResources();
