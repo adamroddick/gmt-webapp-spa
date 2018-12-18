@@ -1,6 +1,5 @@
 function resourceCardTemplate(resource) {
-    var template = '<div class="card">' +
-    '<div class="card-body">' +
+    var template = 
         '<h4 class="card-title">Resource: ' + resource.name + '</h4>' +
         '<p class="card-text">' + 
             '<ul>' +
@@ -9,8 +8,7 @@ function resourceCardTemplate(resource) {
             '<li>Production /s: ' + resource.workers * resource.multiplier + '</li>' +
             '</ul>' +
         '</p>' +
-    '</div>' +
-    '</div>';
+        '<button id="' + resource.name + '" class="btn-sm card-link createWorker">' + resource.name + ' Worker</button>';
     
     return template;
     }
